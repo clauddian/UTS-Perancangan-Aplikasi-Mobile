@@ -8,6 +8,7 @@ void main() {
         ),
         body: SafeArea(
           child: Row(children: <Widget>[
+            buatKotak(Colors.greenAccent, 50),
             Column(children: <Widget>[
               buatKotak(Color.fromARGB(255, 6, 54, 31), 100),
               buatKotak(Colors.orangeAccent[400]!, 70),
